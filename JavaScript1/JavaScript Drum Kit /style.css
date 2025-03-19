@@ -1,7 +1,9 @@
 /* 
 Author:Dominic Appiah
 Date: March 16, 2025
-Description: Stylesheet for javascript drum kit project
+Description: Stylesheet for javascript drum kit project,
+source code adapted from https://javascript30.com
+styled clicked events to match sound play transitions
 */
 html {
   font-size: 10px;

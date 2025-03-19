@@ -8,8 +8,8 @@
   <link rel="icon" href="https://fav.farm/✅" />
 
   <!--Author: Dominic Appiah-->
-  <!--Adopted from https://javascript30.com/Javascript_drum_kit-->
-  f
+  <!--Adapted from https://javascript30.com/Javascript_drum_kit-->
+  <!--Web 124 Project1 JavaScript Drum Kit-->
 </head>
 
 <body>
@@ -17,54 +17,54 @@
 
   <div class="keys">
     <div data-key="65" class="key">
-      <kbd>A</kbd>
+      <kbd id="a">A</kbd>
       <span class="sound">clap</span>
     </div>
     <div data-key="83" class="key">
-      <kbd>S</kbd>
+      <kbd id="s">S</kbd>
       <span class="sound">hihat</span>
     </div>
     <div data-key="68" class="key">
-      <kbd>D</kbd>
+      <kbd id="d">D</kbd>
       <span class="sound">kick</span>
     </div>
     <div data-key="70" class="key">
-      <kbd>F</kbd>
+      <kbd id="f">F</kbd>
       <span class="sound">openhat</span>
     </div>
     <div data-key="71" class="key">
-      <kbd>G</kbd>
+      <kbd id="g">G</kbd>
       <span class="sound">boom</span>
     </div>
     <div data-key="72" class="key">
-      <kbd>H</kbd>
+      <kbd id="h">H</kbd>
       <span class="sound">ride</span>
     </div>
     <div data-key="74" class="key">
-      <kbd>J</kbd>
+      <kbd id="j">J</kbd>
       <span class="sound">snare</span>
     </div>
     <div data-key="75" class="key">
-      <kbd>K</kbd>
+      <kbd id="k">K</kbd>
       <span class="sound">tom</span>
     </div>
     <div data-key="76" class="key">
-      <kbd>L</kbd>
+      <kbd id="l">L</kbd>
       <span class="sound">tink</span>
     </div>
   </div>
 
-  <audio data-key="65" src="sounds/clap.wav"></audio>
-  <audio data-key="83" src="sounds/hihat.wav"></audio>
-  <audio data-key="68" src="sounds/kick.wav"></audio>
-  <audio data-key="70" src="sounds/openhat.wav"></audio>
-  <audio data-key="71" src="sounds/boom.wav"></audio>
-  <audio data-key="72" src="sounds/ride.wav"></audio>
-  <audio data-key="74" src="sounds/snare.wav"></audio>
-  <audio data-key="75" src="sounds/tom.wav"></audio>
-  <audio data-key="76" src="sounds/tink.wav"></audio>
+  <audio data-key="65" src="sounds/clap.wav" id="audio_a"></audio>
+  <audio data-key="83" src="sounds/hihat.wav" id="audio_s"></audio>
+  <audio data-key="68" src="sounds/kick.wav" id="audio_d"></audio>
+  <audio data-key="70" src="sounds/openhat.wav" id="audio_f"></audio>
+  <audio data-key="71" src="sounds/boom.wav" id="audio_g"></audio>
+  <audio data-key="72" src="sounds/ride.wav" id="audio_h"></audio>
+  <audio data-key="74" src="sounds/snare.wav" id="audio_j"></audio>
+  <audio data-key="75" src="sounds/tom.wav" id="audio_k"></audio>
+  <audio data-key="76" src="sounds/tink.wav" id="audio_l"></audio>
 
-  <script src="javascriptDrunKit.js"> </script>
+  <script src="javascriptDrumKit.js"></script>
 
 
 </body>
