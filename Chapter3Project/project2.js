@@ -1,6 +1,6 @@
 // Author: Dominic Appiah
 // Date: March 6, 2025
-// Description: CS 124 JavaScript file for Project 3 project 
+// Description: CS 124 JavaScript file for Project 3 project
 
 var fullName = "Dominic Appiah";
 console.log("Full Name: ", fullName);
