@@ -10,11 +10,9 @@ function fixNav() {
   if (window.scrollY >= topOfNav) {
     document.body.style.paddingTop = nav.offsetHeight + 'px';
     document.body.classList.add('fixed-nav');
-    nav.classList.add('underline');
   } else {
     document.body.classList.remove('fixed-nav');
     document.body.style.paddingTop = 0;
-    nav.classList.remove('underline');
   }
 }
 
