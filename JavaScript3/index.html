@@ -10,6 +10,7 @@
   <title>Click and Drag</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="https://fav.farm/✅" />
+  
 </head>
 <body>
   <div class="items">
@@ -40,39 +41,6 @@
     <div class="item item25">25</div>
   </div>
 
-<script>
-  const slider = document.querySelector('.items');
-  let isDown = false;
-  let startX;
-  let scrollLeft;
-
-  slider.addEventListener('mousedown', (e) => {
-    isDown = true;
-    slider.classList.add('active');
-    startX = e.pageX - slider.offsetLeft;
-    scrollLeft = slider.scrollLeft;
-  });
-
-  slider.addEventListener('mouseleave', () => {
-    isDown = false;
-    slider.classList.remove('active');
-  });
-
-  slider.addEventListener('mouseup', () => {
-    isDown = false;
-    slider.classList.remove('active');
-  });
-
-  // Reduced transition speed for slider
-  slider.addEventListener('mousemove', (e) => {
-    if (!isDown) return;  // stop the fn from running
-    e.preventDefault();
-    const x = e.pageX - slider.offsetLeft;
-    const walk = (x - startX) * 2; // reduced transition speed for slider 
-    slider.scrollLeft = scrollLeft - walk;
-  });
-
-</script>
-
+  <script src="ClickAndDrag.js"></script>
   </body>
 </html>

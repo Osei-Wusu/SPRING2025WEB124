@@ -1,7 +1,7 @@
  //Author: Dominic Appiah
  //Class: WEB 124 JavaScript II 
  //Project Description: Click and Drag project
- 
+ //Reduced transition speed for slider
  const slider = document.querySelector('.items');
   let isDown = false;
   let startX;
@@ -24,10 +24,11 @@
     slider.classList.remove('active');
   });
 
+  //Reduced transition speed for slider
   slider.addEventListener('mousemove', (e) => {
     if (!isDown) return;  // stop the fn from running
     e.preventDefault();
     const x = e.pageX - slider.offsetLeft;
-    const walk = (x - startX) * 3;
+    const walk = (x - startX) * 2;
     slider.scrollLeft = scrollLeft - walk;
   });
