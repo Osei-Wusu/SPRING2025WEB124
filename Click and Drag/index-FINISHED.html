@@ -1,3 +1,8 @@
+
+<!--Authur: Dominic Appiah-->
+<!--Class: CS 124 JavaScriptII-->
+<!--Date: 30th April 2025-->
+<!--Description: Click and Drag project-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -58,11 +63,12 @@
     slider.classList.remove('active');
   });
 
+  // Reduced transition speed for slider
   slider.addEventListener('mousemove', (e) => {
     if (!isDown) return;  // stop the fn from running
     e.preventDefault();
     const x = e.pageX - slider.offsetLeft;
-    const walk = (x - startX) * 3;
+    const walk = (x - startX) * 2; // reduced transition speed for slider 
     slider.scrollLeft = scrollLeft - walk;
   });
 
