@@ -4,7 +4,7 @@
 function doAddition(num) {
     let result = '';
     for (let i = 1; i <= 10; i++) {
-        result += `${num} + ${i} = ${num + i}<br>`;
+        result += `${i} + ${num} = ${i + num}<br>`;
     }
     document.getElementById('addition').innerHTML = result;
 }
@@ -13,7 +13,7 @@ function doSubtraction(num) {
     let result = '';
     let i = 1;
     while (i <= 10) {
-        result += `${num} - ${i} = ${num - i}<br>`;
+        result += `${i} - ${num} = ${i - num}<br>`;
         i++;
     }
     document.getElementById('subtraction').innerHTML = result;
@@ -23,7 +23,7 @@ function doMultiplication(num) {
     let result = '';
     let i = 1;
     do {
-        result += `${num} × ${i} = ${num * i}<br>`;
+        result += `${i} *  ${num} = ${num * i}<br>`;
         i++;
     } while (i <= 10);
     document.getElementById('multiplication').innerHTML = result;
@@ -32,7 +32,7 @@ function doMultiplication(num) {
 function doDivision(num) {
     let result = '';
     for (let i = 1; i <= 10; i++) {
-        result += `${num} ÷ ${i} = ${(num / i).toFixed(2)}<br>`;
+        result += `${i} / ${num} = ${(i / num).toFixed(2)}<br>`;
     }
     document.getElementById('division').innerHTML = result;
 }
