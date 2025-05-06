@@ -9,8 +9,8 @@ body {
     padding: 0;
     display: flex;
     width: 600px;
-    height:auto;
-    flex-direction: column; 
+    height: auto;
+    flex-direction: column;
     text-align: center;
 }
 
@@ -19,7 +19,7 @@ form {
     margin: 20px 0;
     display: inline-block;
     flex-direction: column;
-} 
+}
 
 input[type="number"] {
     padding: 10px;
