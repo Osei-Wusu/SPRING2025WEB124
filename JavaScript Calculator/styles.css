@@ -19,7 +19,7 @@ form {
     margin: 20px 0;
     display: inline-block;
     flex-direction: column;
-}
+} 
 
 input[type="number"] {
     padding: 10px;
