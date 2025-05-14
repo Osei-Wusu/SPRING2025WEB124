@@ -4,6 +4,10 @@ Class: WEB 124
 Description: JavaScript4 Geolocation 
 Date: 05/08/2025
 */
+
+/*
+aligned h5 page title 
+*/
 html {
   font-size: 100px;
 }
@@ -34,9 +38,13 @@ body {
   display: inline-block;
 }
 
+h4 {
+  align-items: center;
+}
+
 h1 {
   color: white;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 60px;
   display: flex;
   align-items: center;
@@ -46,4 +54,4 @@ h1 {
   font-size: 15px;
 }
 
-/*Compass: https://thenounproject.com/search/?q=compass&i=592352*/
+/*Compass: https://thenounproject.com/search/?q=compass&i=592352*/ 
